@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 @GetMapping("/")
 	public String getvalue() {
-		return "Deployed successfully";
+		return "Yipeee the code has beeen successfully deployed";
 	}
 @PostMapping("/{name}")
 public String getvalue(@PathVariable String name) {
